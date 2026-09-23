@@ -2,8 +2,9 @@
 Lead Frontend Engineer
 Minsk, Belarus · Open to remote
 
-+375 29 118 6851 · potyagevich.d@gmail.com
-https://www.linkedin.com/in/dzmitry-patsiahevich-553059149
+- Phone: +375 29 118 6851
+- Email: potyagevich.d@gmail.com 
+- LinkedIn: https://www.linkedin.com/in/dzmitry-patsiahevich-553059149
 
 ## Profile
 
