@@ -1,60 +1,88 @@
 # Dzmitry Patsiahevich
-Lead Frontend Engineer
-Minsk, Belarus · Open to remote
 
-- Phone: +375 29 118 6851
-- Email: potyagevich.d@gmail.com 
-- LinkedIn: https://www.linkedin.com/in/dzmitry-patsiahevich-553059149
+**Senior Frontend Engineer**
+
+Minsk, Belarus · Open to remote  
++375 29 118 6851 · [potyagevich.d@gmail.com](mailto:potyagevich.d@gmail.com)  
+[linkedin.com/in/dzmitry-patsiahevich-553059149](https://linkedin.com/in/dzmitry-patsiahevich-553059149)
 
 ## Profile
 
-Lead frontend engineer with 10 years in JavaScript and 9 years in React, including 4 years of TypeScript on Orca Security’s cloud security platform. Promoted to Lead in Aug 2024. Led a team of 4 developers and 1 QA: delivery scope, code review, mentoring, and hiring interviews.
+Senior frontend engineer with 10 years of JavaScript, the last 4 on React and TypeScript at Orca Security, an agentless cloud security platform with 1,000+ enterprise customers. Promoted to Lead: led a frontend team of 5, owned core product areas (dashboards, alerts, asset inventory), and drove code-quality tooling. Previously 6 years at EPAM, including UI for Liberty Global’s set-top boxes across Europe.
+
+## Skills
+
+| Category | Technologies |
+| --- | --- |
+| Languages | TypeScript, JavaScript (ES6+) |
+| Frameworks & state | React, MobX, React Query, Redux, Redux Saga, Flux |
+| UI | styled-components, MUI, Ant Design, custom UI kit, Atomic Design |
+| Testing | Vitest, Playwright, Jest, Mocha, Sinon, Chai |
+| Tooling | Vite, Webpack, ESLint (custom rules), Chrome Extensions |
+| Backend | Node.js, Express, AWS Lambda, API Gateway, SQS, AWS SAM |
+| Self-study | Next.js, Vue 3, NestJS, Feature-Sliced Design, micro-frontends |
 
 ## Experience
 
 ### Orca Security
-Minsk, then Poland · Cloud security · Aug 2022 – Aug 2026
 
-**Lead Software Engineer** · Aug 2024 – Aug 2026  
-**Senior Software Engineer** · Aug 2022 – Aug 2024
+**Aug 2022 – Aug 2026** · Minsk, Belarus → Warsaw, Poland (from May 2024)
 
-- Frontend owner for alerts, asset inventory, attack paths, and dashboards with widgets on the React / TypeScript cloud security product. Made widget dashboards 40% faster on load and removed the visual render gap in the dashboard builder.
-- Promoted to Lead in Aug 2024. Led 4 developers and 1 QA: delivery scope, code review, mentoring, and hiring interviews.
-- Built and maintained an internal Chrome extension used by 180 colleagues — 40% of the company.
-- Introduced and documented a custom ESLint strategy with 20+ rules to enforce consistency across the frontend codebase.
-- Migrated the frontend from Redux, Redux Saga, Jest, and Webpack to MobX, React Query, Vitest, and Vite. Used styled-components and Playwright on the product.
+Agentless cloud security platform · 1,000+ enterprise customers
+
+- **Lead Software Engineer** · Aug 2024 – Aug 2026
+- **Senior Software Engineer** · Aug 2022 – Jul 2024
+
+- Owned frontend for alerts, asset inventory, attack paths, and customizable dashboards in a React/TypeScript product built by ~20 frontend engineers.
+- Led a frontend team of 4 engineers and 1 QA: delivery planning, code review, mentoring. Handled an underperformance case with a one-month improvement plan that brought output back to team level. After the org moved to domain teams, joined the core platform team.
+- Improved dashboard load: lazy-loaded data for off-screen widgets, added a 5-minute client cache for filter interactions, and replaced spinners with skeletons to improve perceived performance.
+- Removed lag in the dashboard builder’s widget picker by virtualizing the list and replacing live-rendered widget previews with lightweight type cards (negotiated the UX change with Product).
+- Designed and built an internal Chrome extension for one-click environment login and feature-flag management, used by 180 colleagues (~40% of the company). Merged it with a parallel team extension and added settings to control its automation level.
+- Introduced and documented 20+ custom ESLint rules, starting with a ban on cross-module imports to enforce a shared component layer.
+- Took part in an incremental migration from Redux / Redux Saga, Jest, and Webpack to MobX, React Query, Vitest, and Vite.
 
 ### EPAM Systems
-Minsk, Belarus · Aug 2016 – Aug 2022
 
-**Senior Software Developer** · Mar 2019 – Aug 2022  
-**Software Engineer** · Aug 2016 – Feb 2019
+**Aug 2016 – Aug 2022** · Minsk, Belarus
 
-**Integration services** · Node.js, AWS SAM · Mar 2022 – Aug 2022  
-**Media & entertainment platform** · Node.js, React · Mar 2019 – Jan 2022  
-**Product application** · Node.js, React, Redux · Aug 2017 – Feb 2019  
-**Reporting module** · ExtJS 4.1 · Aug 2016 – May 2017
+- **Senior Software Engineer** · Jan 2019 – Aug 2022
+- **Software Engineer** · May 2017 – Dec 2018
+- **Junior Software Engineer** · Aug 2016 – Apr 2017
 
-- Built Node.js integration services on AWS SAM connecting two systems, and unblocked releases by fixing CI/CD pipeline failures.
-- Led refactoring on the media platform through to completion, and mentored newcomers as the area technical contact.
-- SWAT engineer for high-priority issues; shipped React and Redux features.
-- Delivered reporting screens with data grids and Excel import, parsing, validation, and export.
+#### Bose — e-commerce content integration
 
-## Skills
+Node.js, AWS Lambda, API Gateway, SQS, AWS SAM · Mar 2022 – Aug 2022
 
-**Current:** TypeScript, JavaScript (ES6+), React, MobX, React Query, styled-components, Vitest, Playwright, Vite, custom ESLint rules, Chrome extensions
+- Built serverless Node.js integration services that transformed content from Contentstack and delivered it to Salesforce Commerce Cloud to power Bose’s online store.
 
-**Earlier in the Orca tenure:** Redux, Redux Saga, Jest, Webpack
+#### Liberty Global (Virgin Media, Ziggo, Telenet) — set-top box TV platform
 
-**Also shipped:** Node.js, REST APIs
+Node.js, EFL, Flux, Mocha, Sinon · Aug 2017 – Jan 2022 · International team of ~80 engineers
 
-**Earlier:** ExtJS, Mocha, Sinon, Chai, Proxyquire, AWS SAM
+- Co-developed the remote-control setup feature in a cross-team group of 4: 4 remote models controlling TV/amplifier volume and power via IR and HDMI-CEC, with automatic pairing reaching 94% of TVs (target: 90%) and a manual pairing fallback.
+- Triaged critical production issues: analyzed device logs, formed root-cause hypotheses, and routed them to owning teams for confirmation and fix.
+- Built UI features on the Node.js-based TV UI rendered with EFL; covered them with unit tests (Mocha, Sinon). Technical contact for the area and onboarding mentor for newcomers.
+
+#### Hotel analytics platform — Reporting module
+
+ExtJS 4.1 · Aug 2016 – May 2017
+
+- Sole frontend developer on the desktop web app, working closely with the backend developer on API contracts.
+- Built reporting screens with data grids, plus Excel import (parsing, validation) and export.
+
+## Leadership & Mentoring
+
+- Team lead for 4 engineers and 1 QA at Orca Security (delivery scope, code review, mentoring).
+- ~40 technical interviews across EPAM (~30) and Orca (10–12; 3 hires).
+- Mentor in 3 runs of EPAM’s Node.js mentoring program (8 mentees total), teaching REST API development with Express.
 
 ## Education
 
-Specialist degree, Information Technology (Master’s equivalent)  
+**Specialist, Information Technology** (Master’s equivalent)  
 Belarusian State University of Informatics and Radioelectronics · 2009 – 2015
 
 ## Languages
 
-English — professional working proficiency · Russian — native · Belarusian — native
+- English · professional working proficiency
+- Russian · native
+- Belarusian · native
