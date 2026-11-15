@@ -39,6 +39,8 @@ Agentless cloud security platform · 1,000+ enterprise customers
 - Removed lag in the dashboard builder’s widget picker by virtualizing the list and replacing live-rendered widget previews with lightweight type cards (negotiated the UX change with Product).
 - Designed and built an internal Chrome extension for one-click environment login and feature-flag management, used by 180 colleagues (~40% of the company). Merged it with a parallel team extension and added settings to control its automation level.
 - Introduced and documented 20+ custom ESLint rules, starting with a ban on cross-module imports to enforce a shared component layer.
+- Authored a Claude Code agent skill that drove a codebase-wide update for i18n readiness, so the product could
+switch UI language to Japanese.
 - Took part in an incremental migration from Redux / Redux Saga, Jest, and Webpack to MobX, React Query, Vitest, and Vite.
 
 ### EPAM Systems
